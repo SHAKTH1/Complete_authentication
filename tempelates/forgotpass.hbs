@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forgot.css">
+    <title>Forgot Password</title>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="form-box">
+            <header>Forgot Password</header>
+        
+            <p>Please enter your email address below. We will send you a link to reset your password.</p>
+            
+            <form action="/forgot-password" method="post">
+                <div class="input-box">
+                    <input class="input-field" placeholder="Email" type="email" name="email" required>
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <br>
+                    <button type="submit" class="submit">Reset Password</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
