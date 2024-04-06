@@ -28,3 +28,4 @@ step 5 : you can sign up first and then sign in if you do
          not have account 
 step 6 : you can send reset link to your mail if you forgot 
          your password. 
+note: For forgot password feature google firebase has been implemented which can be viewed in the code.
